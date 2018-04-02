@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MusicalApp</string>
+    <string name="bedtime_songs">Bedtime Songs</string>
+    <string name="travel_songs">Travel Songs</string>
+    <string name="learning_songs">Learning Songs</string>
+    <string name="playing_songs">Playing Songs</string>
+    <string name="description">Playing Songs with kids and singing along them can be fun!\nLet\'s learn, play and listen to great songs for bedtime and travel!</string>
+
+</resources>
