@@ -4,6 +4,90 @@
     <string name="travel_songs">Travel Songs</string>
     <string name="learning_songs">Learning Songs</string>
     <string name="playing_songs">Playing Songs</string>
-    <string name="description">Playing Songs with kids and singing along them can be fun!\nLet\'s learn, play and listen to great songs for bedtime and travel!</string>
-
+    <string name="description">Playing Songs with kids and singing along them can be fun!\nLet\'s
+        learn, play and listen to great songs for bedtime and travel! You have the lyrics to help
+        you, so you can\'t get wrong!
+    </string>
+    <string name="bedtimeTitle1">Twinkle, twinkle, little star</string>
+    <string name="bedtimeLirics1">Twinkle, twinkle, little star,\nHow I wonder what you are!\nUp
+        above the world so high,\nLike a diamond in the sky!
+    </string>
+    <string name="bedtimeTitle2">You Are My Sunshine</string>
+    <string name="bedtimeLirics2">You are my sunshine, my only sunshine\nYou make me happy when
+        skies are gray\nYou\'ll never know dear, how much I love you\nPlease don\'t take my sunshine
+        away\n\nI\'ll always love you and make you happy\nIf you will only say the same\nBut if you
+        leave me and love another\nYou\'ll regret it all some day.
+    </string>
+    <string name="bedtimeTitle3">Amazing Grace</string>
+    <string name="bedtimeLirics3">Amazing grace! How sweet the sound\nThat saved a wretch like
+        me!\nI once was lost but now am found\nWas blind, but now I see.
+    </string>
+    <string name="bedtimeTitle4">Hush Little Baby</string>
+    <string name="bedtimeLirics4">Hush, little baby, don\'t say a word,\nMama\'s gonna buy you a
+        mockingbird.\nAnd if that mockingbird won\'t sing,\nMama\'s gonna buy you a diamond ring.
+    </string>
+    <string name="bedtimeTitle5">The Alphabet Song</string>
+    <string name="bedtimeLirics5">A-B-C-D-E-F-G,/nH-I-J-K-L-M-N-O-P,\nQ-R-S-T-U-V-W-X-Y and Z.\nNow
+        I know my A-B-Cs,\nNext time won\'t you sing with me.
+    </string>
+    <string name="playingTitle1">Baby Bumble Bee Song</string>
+    <string name="playingLirics1">I’m bringing home a baby bumblebee,\nI\’m bringing home a baby
+        bumblebee,\nI\’m bringing home a baby bumblebee,\nWon\’t my Mummy be so proud of me?\nI\’m
+        bringing home a baby bumblebee,\n(spoken) Ouch! He stung me!\nI\’m squishing up a baby
+        bumblebee,\nWon\'t my Mummy be so proud of me?\nI\’m squishing up my baby
+        bumblebee,\n(spoken) Eew! It\’s all over me!\nI\’m wiping off a baby bumblebee,\nWont my
+        Mummy be so proud of me?\nI\’m wiping off a baby bumblebee,\n(spoken) Look! All clean!
+    </string>
+    <string name="playingTitle2">Splashing in the Puddles</string>
+    <string name="playingLirics2">Splashing in the puddles,\nSplashing in the puddles,\nSplashing in
+        the puddles,\nBut don’t let Mummy see!\n\nWalking through the raindrops,\nWalking through
+        the raindrops,\nWalking through the raindrops,\nLet’s hope we don’t get wet!\n\nStamping in
+        the gutters,\nStamping in the gutters,\nStamping in the gutters,\nBut don’t let Mummy see!
+    </string>
+    <string name="playingTitle3">I Sent a Letter to My Love</string>
+    <string name="playingLirics3">A tisket, a tasket,\nA green and yellow basket,\nI sent a letter
+        to my love,\nAnd on the way I dropped it,\nI dropped, I dropped it,\nAnd on the way I
+        dropped it,\nA little boy picked it up,\nAnd put it in his pocket.
+    </string>
+    <string name="travelTitle1">The wheels on the bus</string>
+    <string name="travelLirics1">The wheels on the bus go round and round,\nround and round, round
+        and round.\nThe wheels on the bus go round and round,\nA-ll da-y lo-ng!\n\nThe wipers on the
+        bus go swish, swish, swish etc.\nThe doors on the bus go open and shut, open and shut
+        etc.\nThe horn on the bus goes beep, beep, beep etc.\nThe children on the bus go chatter,
+        chatter, chatter etc.\nThe people on the bus bounce up and down, up and down etc.\nThe
+        babies on the bus go fast asleep, fast asleep, fast asleep etc.
+    </string>
+    <string name="travelTitle2">Down at the station</string>
+    <string name="travelLirics2">Down at the station early in the morning,\nSee the little puffa
+        trains all in a row,\nSee the engine driver turn the little handle,\nPuff, puff, chuff,
+        chuff, off we go!
+    </string>
+    <string name="travelTitle3">Row Row Row Your Boat</string>
+    <string name="travelLirics3">Row row row your boat,\nGently down the stream,\nMerrily, merrily,
+        merrily, merrily,\nLife is but a dream!\n\nRow row row your boat,\nGently down the
+        stream,\nIf you see a crocodile,\nDon\’t forget to scream!\n\nRow row row your boat,\nGently
+        to the shore,\nIf you see a dinosaur,\nDon\’t forget to roar!!
+    </string>
+    <string name="learningTitle1">The color song</string>
+    <string name="learningLirics1">My colour\’s cool and pure,\nLike sky or water,\nGuess what you
+        think it is?\n(child answers) “I think it’s blue!”\n\nMy colour’s clean and fresh,\nLike a
+        cucumber,\nGuess what you think it is?\n(child answers) “I think it’s green!”\n\nMy colour’s
+        warm and hot,\nJust like a chilli,\nGuess what you think it is?\n(child answers) “I think
+        it’s red!
+    </string>
+    <string name="learningTitle2">Treasure! A musical Game</string>
+    <string name="learningLirics2">Who has the conker?\n\“I have the conker\”\nWho has the key?\n\“I
+        have the key\”\nWho has the monster?\n\“I have the monster\”\nPlease let us see!
+    </string>
+    <string name="learningTitle3">How are you feeling today</string>
+    <string name="learningLirics3">How are you feeling today?\nOh how are you feeling today?\nI\’m
+        happy and glad, happy and glad,\nThat’s how I\’m feeling today.\n\nHow are you feeling
+        today?\nOh how are you feeling today?\nI’m grumpy and cross, grumpy and cross,\nThat\’s how
+        I\’m feeling today.
+    </string>
+    <string name="learningTitle4">5 little monkeys jumping on the bed</string>
+    <string name="learningLirics4">Five little monkeys jumping on the bed,\nOne fell off and bumped
+        his head!\nMummy phoned the Doctor, and the Doctor said\n\“No more monkeys jumping on the
+        bed!
+    </string>
 </resources>

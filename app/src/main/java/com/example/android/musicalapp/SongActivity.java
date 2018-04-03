@@ -11,17 +11,23 @@ import java.util.ArrayList;
 
 public class SongActivity extends AppCompatActivity {
 
-    ListView listView;
-    ArrayList<Song> songs = new ArrayList<Song>();
-    Category mCategory;
+    private ListView listView;
+    private ArrayList<Song> songs = new ArrayList<Song>();
+    private Category mCategory;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_songs);
 
+        //set Up button in actiobar
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         mCategory = (Category) getIntent().getSerializableExtra("mCategory");
-        songs = Utility.getSongs(mCategory.getType());
+        // set title in actiobar
+        getSupportActionBar().setTitle(mCategory.getType().toUpperCase());
+
+        songs = Utility.getSongs(this, mCategory.getType());
 
         SongAdapter adapter = new SongAdapter(this, songs, mCategory);
 
@@ -34,10 +40,10 @@ public class SongActivity extends AppCompatActivity {
                                     int position, long id) {
 
                 Song song = songs.get(position);
-                Intent myIntent = new Intent(view.getContext(), DetailedSongActivity.class);
-                myIntent.putExtra("song", song);
-                myIntent.putExtra("mCategory", mCategory.getType());
-                startActivityForResult(myIntent, 0);
+                Intent songIntent = new Intent(view.getContext(), DetailedSongActivity.class);
+                songIntent.putExtra("song", song);
+                songIntent.putExtra("mCategory", mCategory.getType());
+                startActivityForResult(songIntent, 0);
             }
         });
     }

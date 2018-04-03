@@ -11,8 +11,9 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    ListView listView;
-    ArrayList<Category> mCategories = new ArrayList<Category>();
+    private ListView listView;
+    private ArrayList<Category> mCategories = new ArrayList<Category>();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,16 +26,14 @@ public class MainActivity extends AppCompatActivity {
         listView = (ListView) findViewById(R.id.list);
 
         listView.setAdapter(adapter);
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener()
-        {
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
                 Category category = mCategories.get(position);
-                Intent intent;
-                intent = new Intent(MainActivity.this, SongActivity.class);
-                intent.putExtra("mCategory", category);
-                startActivity(intent);
+                Intent categoryIntent = new Intent(MainActivity.this, SongActivity.class);
+                categoryIntent.putExtra("mCategory", category);
+                startActivity(categoryIntent);
             }
         });
     }
